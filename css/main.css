@@ -8,7 +8,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 
-	margin-top: 70px;
+	/*margin-top: 70px;*/
 }
 
 h1 {
@@ -59,8 +59,8 @@ a:hover {
 }
 
 .info {
-	width:150px;
-	height:50px;
+	/*width:150px;
+	height:50px;*/
 	position:relative;
 	top: 85px;
 	left: 195px;
@@ -91,38 +91,39 @@ a:hover {
 
 .banner_top {
 	height: 120px;
-	width: 1060px;
+	/*width: 1060px;*/
 	background-color: #556890;
-	position: relative;
-	top: 90px;
-	left: 150px;
+	/*position: relative;*/
+	/*top: 90px;
+	left: 150px;*/
 }
 
 .banner_right {
 	height: 200px;
-	width: 300px;
+	/*width: 300px;*/
 	background-color: #556890;
 	position: relative;
-	top: -480px;
-	left: 910px;
+	/*top: -480px;*/
+	/*left: 910px;*/
 }
 
 .card {
-	width: 250px;
-	height: 330px;
+	/*width: 250px;
+	height: 330px;*/
 	border: 2px solid #1a2940;
 	margin-top:  20px;
 	position:relative;
-	top: -602px;
-	left: 150px;
+	/*top: -602px;
+	left: 150px;*/
 
 }
 
 .card_img {
+	max-width: 100%;
 	height: 150px;
 	position:relative;
-	top: 8px;
-	left: 8px;
+	/*top: 8px;*/
+	/*left: 8px;*/
 }
 
 .card_text {
@@ -154,24 +155,26 @@ th {
 
 .key_search {
 	background-color: #c4c5c9;
-	width: 1060px;
+	/*width: 1060px;*/
 	height: 181px;
 	position:relative;
-	top: -480px;
-	left: 150px;
+	/*top: -480px;
+	left: 150px;*/
 
 }
 
 .search_word {
-	width: 900px;
+	width: 90%;
 	height: 30px;
 	border:1px solid #9E9E9E;
-	border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px;
     color: #000000;
     padding: 3px;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-bottom: 2px;
+    /*margin-top: 20px;*/
+		margin: 5px auto;
+    /*margin-left: auto;*/
+		/*margin-right: auto;*/
+    /*margin-bottom: 2px;*/
     font-size: 11px;
     background: #FFF;
 }
@@ -179,36 +182,36 @@ th {
 .button_search {
 	height: 20px;
 	position:relative;
-	top: 6px;
-	left: 30px;
+	/*top: 6px;
+	left: 30px;*/
 }
 
 .search_index {
 	width: 180px;
 	height: 95px;
 	border:1px solid #9E9E9E;
-	border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px;
     color: #000000;
     padding: 50px;
-    margin-left: 80px;
+    /*margin-left: 80px;*/
    	position:relative;
-	top: -600px;
-	left: 110px;
+	/*top: -600px;
+	left: 110px;*/
     font-size: 40px;
     background: #FFF;
 }
 .search_point {
 	height: 25px;
 	position:relative;
-	top: -580px;
-	left: 150px;
+	/*top: -580px;
+	left: 150px;*/
 }
 
 .index_button_search {
 	height: 30px;
 	position:relative;
-	top: -600px;
-	left: 150px;
+	/*top: -600px;
+	left: 150px;*/
 	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .2);
 }
 
@@ -217,10 +220,9 @@ th {
 	font-size: 12px;
 	color: #1a2940;
     position: relative;
-    top: 90px;
-    left: 150px;
-    width: 1800px;
-    height: 550px;
+    /*top: 90px;*/
+    /*left: 150px;*/
+    /*height: 550px;*/
 }
 
 .panel {
@@ -293,9 +295,10 @@ th {
 
 #btn_input {
     height: 70px;
-    width: 700px;
+    /*width: 700px;*/
     padding: 10px;
     text-align: left;
+		width: 100%;
 }
 
 .input-group {
@@ -303,10 +306,12 @@ th {
 }
 
 .send_button {
+		float: right;
+		clear: both;
     height: 30px;
     position: relative;
-    top: 10px;
-    left: 600px;
+    /*top: 10px;*/
+    /*left: 60%;*/
     box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, .2);
 }
 ::-webkit-scrollbar-track
@@ -325,4 +330,15 @@ th {
 {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
     background-color: #555;
+}
+
+#content {
+	width: 80%;
+	max-width: 1400px;
+	margin-top: 170px;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
